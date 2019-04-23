@@ -4,10 +4,13 @@
     </head>
     <body>
       <?php
-      $chiffre1=5;
-      $chiffre2=10;
-      $total=$chiffre1+$chiffre2;
-      echo $total;
+      $x = rand(1,100);
+        if($x <50){
+          echo "$x Je vais faire du bon visuel";
+        }
+        else{
+          echo "$x Je suis un pioupiou";
+        }
       ?>
     </body>
 </html>
