@@ -6,8 +6,7 @@
       <?php
       $a = 2;
       $b = 8;
-      $c = 0.2;
-      echo min ($a,$b,$c);
+      echo min ($a,$b);
       ?>
     </body>
 </html>
