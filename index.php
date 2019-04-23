@@ -1,13 +1,11 @@
 <html>
     <head>
-        <title>Test PHP</title>
+        <title>Ast PHP</title>
     </head>
     <body>
       <?php
-      $a = 2;
-      $b = 8;
-      $c = 0.2;
-      echo min ($a,$b,$c);
+      $nombreA = rand(1,100);
+      echo $nombreA;
       ?>
     </body>
 </html>
