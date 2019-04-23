@@ -4,7 +4,7 @@
     </head>
     <body>
       <?php
-      $nombreA = rand(1,100);
+      $nombreA = rand(5,100);
       echo $nombreA;
       ?>
     </body>
