@@ -4,8 +4,10 @@
     </head>
     <body>
       <?php
-      $nombreA = rand(5,100);
-      echo $nombreA;
+      $chiffre1=5;
+      $chiffre2=10;
+      $total=$chiffre1+$chiffre2;
+      echo $total;
       ?>
     </body>
 </html>
