@@ -62,12 +62,12 @@
       }
       ?><br><br>
 
-      Step 10 : Faire une fonction qui prend en paramètre x;<br/>
-      si x == 1 alors afficher (AAAA)</br>
-      si x == 2 alors afficher (BBBB)</br>
-      si x == 3 alors afficher (CCCC)</br>
-      si x == 4 alors afficher (DDDD)</br>
-      sinon afficher "je suis une perruche"</h3><br/>
+      Step 10 : Faire une fonction qui prend en paramètre x;<br>
+      si x == 1 alors afficher (AAAA)<br>
+      si x == 2 alors afficher (BBBB)<br>
+      si x == 3 alors afficher (CCCC)<br>
+      si x == 4 alors afficher (DDDD)<br>
+      sinon afficher "je suis une perruche"</h3><br>
       <?php
       $x = 4;
       if ($x == 1){
@@ -83,9 +83,30 @@
         echo "DDDD";
       }
       else {
-        echo "je suis une perruche";
+        echo "Je suis une perruche";
       }
       ?>
       <br><br>
+
+      Step 11 : Faire idem que step 10 mais avec Switch Case<br>
+      <?php
+        $x = 1;
+        switch ($x) {
+          case 1:
+            echo 'AAAA';
+            break;
+          case 2:
+            echo 'BBBB';
+            break;
+          case 3:
+            echo 'CCCC';
+            break;
+          case 4:
+            echo 'DDDD';
+            break;
+          default:
+            echo 'Je suis une perruche';
+        }
+      ?>
     </body>
 </html>
